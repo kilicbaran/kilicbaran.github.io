@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /images/
+Disallow: /blog/tag/
+Disallow: /*.pdf$
+Allow: /

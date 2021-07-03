@@ -1,0 +1,35 @@
+@tailwind base;
+/* Write your global styles here, in PostCSS syntax */
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    body {
+        @apply text-gray-900 dark:text-gray-100 dark:bg-black;
+    }
+
+    .blog-body > p {
+        @apply mb-6 text-lg leading-relaxed px-1 max-w-screen-sm mx-auto;
+    }
+
+    .blog-body blockquote {
+        @apply mt-6 mb-6 pl-6 text-2xl text-gray-500 dark:text-gray-400 font-serif italic max-w-screen-sm mx-auto;
+    }
+
+    .blog-body a {
+        @apply underline text-blue-600 visited:text-purple-600;
+    }
+
+    .blog-body figure {
+        @apply mt-6 mb-6;
+    }
+
+    .blog-body figcaption {
+        @apply text-center text-gray-600 dark:text-gray-400 max-w-screen-md mx-auto mt-2;
+    }
+    
+}
+
+@layer utilities {
+    
+}
