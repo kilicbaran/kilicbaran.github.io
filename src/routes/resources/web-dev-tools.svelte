@@ -39,7 +39,7 @@
                         <a
                             href="https://validator.w3.org/"
                             target="_blank"
-                            rel="noopener noreferrer"
+                            rel="noopener noreferrer nofollow"
                             >W3C HTML Markup Validator</a
                         >
                     </li>
@@ -47,7 +47,7 @@
                         <a
                             href="https://validator.w3.org/feed/"
                             target="_blank"
-                            rel="noopener noreferrer"
+                            rel="noopener noreferrer nofollow"
                             >W3C Atom, RSS Feed Validator</a
                         >
                     </li>
@@ -55,7 +55,7 @@
                         <a
                             href="https://jigsaw.w3.org/css-validator/"
                             target="_blank"
-                            rel="noopener noreferrer">W3C CSS Validator</a
+                            rel="noopener noreferrer nofollow">W3C CSS Validator</a
                         >
                     </li>
                 </ul>
@@ -67,14 +67,14 @@
                         <a
                             href="https://www.seobility.net/en/seocheck/"
                             target="_blank"
-                            rel="noopener noreferrer">Seobility SEO Check</a
+                            rel="noopener noreferrer nofollow">Seobility SEO Check</a
                         >
                     </li>
                     <li>
                         <a
                             href="https://seositecheckup.com/"
                             target="_blank"
-                            rel="noopener noreferrer">SEO Site Checkup</a
+                            rel="noopener noreferrer nofollow">SEO Site Checkup</a
                         >
                     </li>
                 </ul>
@@ -86,28 +86,28 @@
                         <a
                             href="https://web.dev/measure/"
                             target="_blank"
-                            rel="noopener noreferrer">Google Measure</a
+                            rel="noopener noreferrer nofollow">Google Measure</a
                         >
                     </li>
                     <li>
                         <a
                             href="https://developers.google.com/speed/pagespeed/insights/"
                             target="_blank"
-                            rel="noopener noreferrer">PageSpeed Insights</a
+                            rel="noopener noreferrer nofollow">PageSpeed Insights</a
                         >
                     </li>
                     <li>
                         <a
                             href="https://webpagetest.org/"
                             target="_blank"
-                            rel="noopener noreferrer">Web Page Test</a
+                            rel="noopener noreferrer nofollow">Web Page Test</a
                         >
                     </li>
                     <li>
                         <a
                             href="https://gtmetrix.com/"
                             target="_blank"
-                            rel="noopener noreferrer">GTMetrix</a
+                            rel="noopener noreferrer nofollow">GTMetrix</a
                         >
                     </li>
                 </ul>
@@ -119,21 +119,21 @@
                         <a
                             href="https://www.opengraph.xyz/"
                             target="_blank"
-                            rel="noopener noreferrer">OpenGraph Preview</a
+                            rel="noopener noreferrer nofollow">OpenGraph Preview</a
                         >
                     </li>
                     <li>
                         <a
                             href="https://cards-dev.twitter.com/validator"
                             target="_blank"
-                            rel="noopener noreferrer">Twitter Card Validator</a
+                            rel="noopener noreferrer nofollow">Twitter Card Validator</a
                         >
                     </li>
                     <li>
                         <a
                             href="https://search.google.com/test/rich-results"
                             target="_blank"
-                            rel="noopener noreferrer">Google Rich Results Test</a
+                            rel="noopener noreferrer nofollow">Google Rich Results Test</a
                         >
                     </li>
                 </ul>
@@ -145,14 +145,14 @@
                         <a
                             href="https://search.google.com/test/mobile-friendly"
                             target="_blank"
-                            rel="noopener noreferrer">Google Mobile Friendly Test</a
+                            rel="noopener noreferrer nofollow">Google Mobile Friendly Test</a
                         >
                     </li>
                     <li>
                         <a
                             href="https://search.google.com/test/amp"
                             target="_blank"
-                            rel="noopener noreferrer">Google AMP Test</a
+                            rel="noopener noreferrer nofollow">Google AMP Test</a
                         >
                     </li>
                 </ul>
