@@ -16,30 +16,29 @@
     export let path;
 </script>
 
-<style>
-    .my-stroke-width {
-        stroke-width: 7px;
-    }
-
-    @media (min-width: 640px) {
-        .my-stroke-width {
-            stroke-width: 5px;
-        }
-    }
-
-    @media (min-width: 768px) {
-        .my-stroke-width {
-            stroke-width: 4px;
-        }
-    } 
-</style>
-
 <svelte:head>
     <title>Baran Kılıç</title>
     <meta
         name="description"
         content="Personal website of Baran Kılıç. M.Sc. Student in Computer Engineering. Check out my projects, blog posts and know more about me."
     />
+    <style type="text/css">
+        .my-stroke-width {
+            stroke-width: 7px;
+        }
+
+        @media (min-width: 640px) {
+            .my-stroke-width {
+                stroke-width: 5px;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .my-stroke-width {
+                stroke-width: 4px;
+            }
+    } 
+    </style>
 </svelte:head>
 
 <Layout {path}>
@@ -56,9 +55,9 @@
                             y="80"
                             letter-spacing="6"
                             fill={textColor}
+                            paint-order="stroke"
                             stroke={strokeColor}
                             stroke-linejoin="round"
-                            paint-order="stroke"
                             >{name}</text
                         ></svg
                     >

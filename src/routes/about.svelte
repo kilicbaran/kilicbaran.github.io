@@ -32,14 +32,14 @@
                     class="underline text-blue-600 visited:text-purple-600"
                     href="https://cmpe.boun.edu.tr"
                     target="_blank"
-                    rel="noopener noreferrer">Computer Engi&shy;neer&shy;ing</a
+                    rel="noopener noreferrer nofollow">Computer Engi&shy;neer&shy;ing</a
                 >
-                from
+                at
                 <a
                     class="underline text-blue-600 visited:text-purple-600"
                     href="http://www.boun.edu.tr"
                     target="_blank"
-                    rel="noopener noreferrer">Boğaziçi University</a
+                    rel="noopener noreferrer nofollow">Boğaziçi University</a
                 >, Istanbul, Turkey, from where I also received my B.S. degree
                 and high honor certificate. I graduated from <a
                     class="underline text-blue-600 visited:text-purple-600"

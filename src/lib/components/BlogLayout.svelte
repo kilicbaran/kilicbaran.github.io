@@ -7,20 +7,17 @@
     <meta name="description" content={metadata.summary} />
 </svelte:head>
 
-<!--<div class="max-w-screen-md mx-auto mt-4">
-    <a href="/blog" class="underline text-blue-500">Back to blog homepage</a>
-</div>-->
 
 <article>
     <div class="max-w-screen-md mx-auto p-2">
         <h1 class="text-5xl max-w-screen-md mx-auto my-6">{metadata.title}</h1>
         <div class="flex">
-            <img
+            <a href="/about"><img
                 class="flex-none w-12 h-12 rounded-full"
                 src="/images/baran.jpg"
                 alt="Baran Kılıç"
                 loading="lazy"
-            />
+            /></a>
             <div class="ml-2">
                 <a class="hover:underline font-medium" href="/about">Baran Kılıç</a>
                 <div>
@@ -58,9 +55,6 @@
             />
         </div>
     {/if}
-
-    <!-- TODO add share buttons -->
-    <!-- TODO metadata for <head>  -->
 
     <div class="blog-body my-10">
         <slot />
