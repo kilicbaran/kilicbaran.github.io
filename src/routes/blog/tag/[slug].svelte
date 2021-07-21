@@ -39,9 +39,9 @@
     
     <div class="mx-auto max-w-screen-md mt-8">
         <h2 class="text-xl mb-6">Posts with tag: "{tag}"</h2>
-        {#each posts.slice(0, 1) as { metadata, slug }}
+        {#each posts as { metadata, slug }}
             <a href="/blog/{slug}">
-            <div class="flex flex-col md:flex-row bg-gray-50 dark:bg-gray-800 border rounded-xl overflow-hidden items-center">
+            <div class="mb-6 flex flex-col md:flex-row bg-gray-50 dark:bg-gray-800 border rounded-xl overflow-hidden items-center">
                 <img
                     class="object-cover w-full md:w-1/2 h-60"
                     src="/images/{metadata.coverImage}"

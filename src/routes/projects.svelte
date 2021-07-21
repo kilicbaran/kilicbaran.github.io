@@ -37,7 +37,7 @@
         </h3>
         <p class="font-semibold text-indigo-500">
           A course schedule planning tool for Boğaziçi University used by
-          several thousands of students each year.
+          thousands of students each semester.
         </p>
         <p class="text-gray-800 dark:text-gray-200">
           Although I like the old-school course schedule tables in the
