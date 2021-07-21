@@ -58,6 +58,7 @@
     <figcaption>
         An example of a silly job requirement
         <a
+            class="break-all"
             href="https://twitter.com/tiangolo/status/1281946592459853830"
             target="_blank"
             rel="noopener noreferrer"
