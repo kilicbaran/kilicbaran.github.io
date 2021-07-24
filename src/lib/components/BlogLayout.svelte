@@ -10,7 +10,7 @@
 
 <article>
     <div class="max-w-screen-md mx-auto p-2">
-        <h1 class="text-5xl max-w-screen-md mx-auto my-6">{metadata.title}</h1>
+        <h1 class="text-5xl max-w-screen-md mx-auto my-4 sm:my-6 leading-tight">{metadata.title}</h1>
         <div class="flex">
             <a href="/about"><img
                 class="flex-none w-12 h-12 rounded-full"
@@ -34,7 +34,7 @@
         </div>
 
         {#if metadata.tags}
-            <div class="mt-3">
+            <div class="mt-4 text-sm">
                 <span>Tags:</span>
                 {#each metadata.tags as tag}
                     <a

@@ -13,7 +13,7 @@ export async function get() {
                 slug: fileName.slice(0, -extension.length)
             };
         });
-    posts.sort((a, b) => new Date(b.date) - new Date(a.date));
+    posts.sort((a, b) => new Date(b.metadata.date) - new Date(a.metadata.date));
 
     const body = JSON.stringify(posts);
 

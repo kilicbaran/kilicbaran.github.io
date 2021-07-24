@@ -50,7 +50,7 @@
             </p>
         </section>
         <section class="mt-8">
-            <h2 class="text-3xl mb-2">News</h2>
+            <h2 class="text-3xl tracking-tight mb-2">News</h2>
 
             <div id="news-list" class="max-w-prose mx-auto space-y-3">
                 <div>
@@ -106,7 +106,7 @@
             </div>
         </section>
         <section class="mt-8">
-            <h2 class="text-3xl mb-2">Contact Me</h2>
+            <h2 class="text-3xl tracking-tight mb-2">Contact Me</h2>
             <ul class="max-w-prose mx-auto">
                 <li>
                     <a

@@ -13,9 +13,14 @@ export async function get() {
                 slug: fileName.slice(0, -extension.length)
             };
         });
-    posts.sort((a, b) => new Date(b.date) - new Date(a.date));
 
-    const rss_posts = posts.map(({ metadata, slug }) => {
+    // Sort by date
+    posts.sort((a, b) => new Date(b.metadata.date) - new Date(a.metadata.date));
+
+    const num_of_posts = 10;
+    const last_posts = posts.slice(0, num_of_posts);
+
+    const rss_posts = last_posts.map(({ metadata, slug }) => {
         return `<item>
         <title>${metadata.title}</title>
         <description>${metadata.summary}</description>

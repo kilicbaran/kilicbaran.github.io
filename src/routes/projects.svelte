@@ -27,7 +27,7 @@
     <HomeTitle>Projects</HomeTitle>
     <section
       id="boun-course-planner"
-      class="max-w-screen-lg mx-auto bg-white dark:bg-gray-800  rounded-2xl mt-4 md:mt-8 overflow-hidden shadow-xl grid grid-cols-1 md:grid-cols-2 md:h-96"
+      class="max-w-screen-lg mx-auto bg-white dark:bg-gray-800 rounded-2xl mt-4 md:mt-8 overflow-hidden shadow-xl grid grid-cols-1 md:grid-cols-2 md:h-96"
     >
       <div
         class="p-4 lg:p-8 flex flex-col justify-center order-last md:order-first space-y-3"
