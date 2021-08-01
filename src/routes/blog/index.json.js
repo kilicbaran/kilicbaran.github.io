@@ -2,10 +2,10 @@ import fs from 'fs';
 
 export async function get() {
     const extension = ".json";
-    let posts = fs.readdirSync('src/posts')
+    let posts = fs.readdirSync('src/routes/blog/post')
         .filter(fileName => fileName.endsWith(extension))
         .map(fileName => {
-            const file = fs.readFileSync(`src/posts/${fileName}`, 'utf8');
+            const file = fs.readFileSync(`src/routes/blog/post/${fileName}`, 'utf8');
             const metadata = JSON.parse(file);
             
             return {

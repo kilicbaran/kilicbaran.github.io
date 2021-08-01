@@ -2,10 +2,10 @@ import fs from 'fs';
 
 export async function get() {
     const extension = ".json";
-    let posts = fs.readdirSync('src/posts')
+    let posts = fs.readdirSync('src/routes/blog/post')
         .filter(fileName => fileName.endsWith(extension))
         .map(fileName => {
-            const file = fs.readFileSync(`src/posts/${fileName}`, 'utf8');
+            const file = fs.readFileSync(`src/routes/blog/post/${fileName}`, 'utf8');
             const metadata = JSON.parse(file);
 
             return {
@@ -25,8 +25,8 @@ export async function get() {
         <title>${metadata.title}</title>
         <description>${metadata.summary}</description>
         <pubDate>${new Date(metadata.date).toUTCString()}</pubDate>
-        <link>https://kilicbaran.github.io/blog/${slug}</link>
-        <guid>https://kilicbaran.github.io/blog/${slug}</guid>
+        <link>https://kilicbaran.github.io/blog/post/${slug}</link>
+        <guid>https://kilicbaran.github.io/blog/post/${slug}</guid>
     </item>`;
     });
 

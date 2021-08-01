@@ -37,7 +37,7 @@
     <div class="mx-auto max-w-screen-md mt-8">
         <!-- posts.slice(0, 1) -->
         {#each posts as { metadata, slug }}
-            <a href="/blog/{slug}">
+            <a href="/blog/post/{slug}">
                 <div
                     class="mb-6 flex flex-col md:flex-row bg-gray-50 dark:bg-gray-800 border rounded-xl overflow-hidden items-center"
                 >
