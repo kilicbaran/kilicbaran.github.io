@@ -14,12 +14,6 @@
     export let path;
 </script>
 
-<style>
-    ul > li > a {
-        @apply text-blue-600 hover:underline visited:text-purple-600;
-    }
-</style>
-
 <svelte:head>
     <title>Web Dev Tools - Resources - Baran Kılıç</title>
     <meta
@@ -31,7 +25,7 @@
 <Layout {path}>
     <div class="mx-auto max-w-screen-md p-2">
         <HomeTitle>Web Dev Tools</HomeTitle>
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4">
+        <div id="web-dev-tools" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4">
             <section>
                 <h2 class="text-2xl">Validators</h2>
                 <ul>
