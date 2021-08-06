@@ -20,7 +20,7 @@
     <title>Baran Kılıç</title>
     <meta
         name="description"
-        content="Personal website of Baran Kılıç. M.Sc. Student in Computer Engineering. Check out my projects, blog posts and know more about me."
+        content="Personal website of Baran Kılıç. M.Sc. Student in Computer Engineering. Check out my projects, blog posts, and know more about me."
     />
     <style type="text/css">
         .my-stroke-width {

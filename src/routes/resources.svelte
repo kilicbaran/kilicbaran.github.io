@@ -36,7 +36,7 @@
     <title>Resources - Baran Kılıç</title>
     <meta
         name="description"
-        content="Resources like cheatsheets and code snippets about programming and command line."
+        content="Resources like links, cheatsheets and code snippets about programming and command line."
     />
 </svelte:head>
 

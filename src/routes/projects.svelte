@@ -18,7 +18,7 @@
   <title>Projects - Baran Kılıç</title>
   <meta
     name="description"
-    content="Baran Kılıç' projects, such as Boun Course Planner."
+    content="Baran Kılıç's projects, such as Boun Course Planner."
   />
 </svelte:head>
 
