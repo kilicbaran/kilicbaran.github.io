@@ -47,7 +47,7 @@
         {/if}
     </div>
     {#if metadata.coverImage}
-        <div class="max-w-screen-md mx-auto mt-6 mb-8">
+        <div class="max-w-screen-md mx-auto mt-6 mb-6">
             <img
                 src="/images/{metadata.coverImage}"
                 alt={metadata.coverImageAlt}
@@ -56,7 +56,7 @@
         </div>
     {/if}
 
-    <div class="blog-body my-10">
+    <div class="blog-body my-8">
         <slot />
     </div>
 </article>
