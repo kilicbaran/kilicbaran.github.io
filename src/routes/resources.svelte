@@ -17,17 +17,17 @@
         {
             name: "Web Dev Tools",
             href: "web-dev-tools",
-            classes: "from-blue-500 to-blue-700"
+            classes: "from-blue-400 to-blue-700"
+        },
+        {
+            name: "Software Dev",
+            href: "software-dev",
+            classes: "from-orange-400 to-orange-700"
         },
         {
             name: "Coming soon",
             href: "",
-            classes: "from-gray-500 to-gray-800"
-        },
-        {
-            name: "Coming soon",
-            href: "",
-            classes: "from-gray-500 to-gray-800"
+            classes: "from-gray-400 to-gray-700"
         },
     ];
 </script>

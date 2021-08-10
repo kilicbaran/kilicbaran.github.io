@@ -25,6 +25,7 @@ const config = {
 				cyan: colors.cyan,
 				rose: colors.rose,
 				sky: colors.sky,
+				orange: colors.orange,
 				/*blueGray: colors.blueGray,
 				coolGray: colors.coolGray,
 				gray: colors.gray,
