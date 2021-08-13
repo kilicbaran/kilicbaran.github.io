@@ -46,7 +46,7 @@
         {#each menuItems as { href, name, bgColor, strokeColor, textColor }}
             <a
                 {href}
-                class="block {bgColor}  text-white font-black rounded-lg px-8 h-16 sm:h-24 md:h-28 overflow-hidden flex items-center mb-4 hover:shadow-xl transition ease-in-out duration-300 transform-gpu hover:-translate-y-1"
+                class="{bgColor}  text-white font-black rounded-lg px-8 h-16 sm:h-24 md:h-28 overflow-hidden flex items-center mb-4 hover:shadow-xl transition ease-in-out duration-300 transform-gpu hover:-translate-y-1"
             >
                 <div class="subpixel-antialiased text-transparent w-full transform-gpu -rotate-6 -translate-y-2 sm:-translate-y-6 md:-translate-y-7 -translate-x-4 sm:translate-x-0">
                     <svg class="h-full w-full" style="font-size: 72px;" viewBox="0 0 550 100"
