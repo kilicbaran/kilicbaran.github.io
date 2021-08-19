@@ -25,7 +25,7 @@
 </svelte:head>
 
 <Layout {path}>
-    <div class="mx-auto max-w-screen-md p-2">
+    <div class="mx-auto max-w-screen-md p-2 tracking-inter">
         <HomeTitle>About Me</HomeTitle>
         <div class="divide-y">
             <section class="max-w-prose mx-auto py-5">
@@ -35,7 +35,7 @@
                 </p>
             </section>
             <section class="py-5">
-                <h2 class="text-3xl tracking-tight mb-2">Education</h2>
+                <h2 class="text-3xl mb-2">Education</h2>
 
                 <p class="max-w-prose mx-auto">
                     I'm currently pursuing my M.Sc. degree in <a
@@ -63,7 +63,7 @@
                 </p>
             </section>
             <section class="py-5">
-                <h2 class="text-3xl tracking-tight mb-2">News</h2>
+                <h2 class="text-3xl mb-2">News</h2>
 
                 <div id="news-list" class="max-w-prose mx-auto space-y-3">
                     <div>
@@ -120,7 +120,7 @@
                 </div>
             </section>
             <section class="py-5">
-                <h2 class="text-3xl tracking-tight mb-2">Contact Me</h2>
+                <h2 class="text-3xl mb-2">Contact Me</h2>
                 <ul class="max-w-prose mx-auto">
                     <li>
                         <a

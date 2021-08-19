@@ -23,7 +23,7 @@
 </svelte:head>
 
 <Layout {path} extraClasses="bg-blueGray-100 dark:bg-black">
-  <div class="p-2 pb-8">
+  <div class="px-3 pt-2 pb-8 tracking-inter">
     <HomeTitle>Projects</HomeTitle>
     <section
       id="boun-course-planner"

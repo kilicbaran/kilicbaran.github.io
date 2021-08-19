@@ -34,7 +34,7 @@
         </div>
     </section>
 
-    <div class="mx-auto max-w-screen-md mt-8">
+    <div class="mx-auto max-w-screen-md mt-8 tracking-inter">
         <!-- posts.slice(0, 1) -->
         {#each posts as { metadata, slug }}
             <a href="/blog/post/{slug}">
