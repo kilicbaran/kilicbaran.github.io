@@ -9,7 +9,7 @@
 
 
 <article>
-    <div class="max-w-screen-md mx-auto p-2 tracking-inter">
+    <div class="max-w-screen-md mx-auto p-4 tracking-inter">
         <h1 class="text-5xl max-w-screen-md mx-auto my-4 sm:my-6 leading-tight">{metadata.title}</h1>
         <div class="flex">
             <a href="/about"><img

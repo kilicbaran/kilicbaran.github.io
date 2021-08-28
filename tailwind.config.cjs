@@ -48,6 +48,9 @@ const config = {
 				pink: colors.pink,
 				rose: colors.rose,*/
 			},
+			height: {
+				18: "4.5rem"
+			},
 			spacing: {
 				28: "7rem",
 			},

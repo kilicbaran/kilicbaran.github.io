@@ -2,7 +2,7 @@
     import { menuItems } from "$lib/menuItems";
 </script>
 
-<footer class="flex-none py-1 bg-gray-800  text-sm tracking-inter">
+<footer class="flex-none py-1 bg-gray-900  text-xs tracking-inter">
     <div
         class="mx-auto max-w-screen-lg py-2 px-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4"
     >

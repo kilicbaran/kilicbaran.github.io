@@ -25,7 +25,7 @@
 </svelte:head>
 
 <Layout {path}>
-    <div class="mx-auto max-w-screen-md p-2 tracking-inter">
+    <div class="mx-auto max-w-screen-md p-4 tracking-inter subpixel-antialiased">
         <HomeTitle>About Me</HomeTitle>
         <div class="divide-y">
             <section class="max-w-prose mx-auto py-5">

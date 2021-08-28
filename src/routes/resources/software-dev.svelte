@@ -23,7 +23,7 @@
 </svelte:head>
 
 <Layout {path}>
-    <div class="mx-auto max-w-screen-md p-2 tracking-inter">
+    <div class="mx-auto max-w-screen-md p-4 tracking-inter">
         <HomeTitle>Software Dev</HomeTitle>
         <div id="software-dev" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4">
             <section>

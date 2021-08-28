@@ -23,7 +23,7 @@
 </svelte:head>
 
 <Layout {path} extraClasses="bg-blueGray-100 dark:bg-black">
-  <div class="px-3 pt-2 pb-8 tracking-inter">
+  <div class="p-4 pb-8 tracking-inter subpixel-antialiased">
     <HomeTitle>Projects</HomeTitle>
     <section
       id="boun-course-planner"
@@ -32,15 +32,11 @@
       <div
         class="p-4 lg:p-8 flex flex-col justify-center order-last md:order-first space-y-3"
       >
-        <h3 class="text-2xl font-semibold text-left">
-          Boun Course Planner
-        </h3>
-        <p class="font-medium text-indigo-500">
-          A course schedule planning tool for Boğaziçi University used by
-          thousands of students each semester.
-        </p>
+        <p class="font-medium text-indigo-500">Course schedule planner</p>
+        <h3 class="text-2xl font-semibold text-left">Boun Course Planner</h3>
         <p class="text-gray-800 dark:text-gray-200">
-          Although I like the old-school course schedule tables in the
+          A tool for Boğaziçi University used by thousands of students each
+          semester. Although I like the old-school course schedule tables in the
           registration website, it is hard to create a schedule with it. So, I
           created this tool to make the course planning process seamless.
         </p>
@@ -74,15 +70,12 @@
         <div
           class="p-4 md:p-6 flex flex-col justify-center order-last space-y-3"
         >
-          <h3 class="text-2xl font-semibold text-left">
-            HoneyBadgers
-          </h3>
-          <p class="font-medium text-orange-500">
-            A freelancer platform for client and freelancers
-          </p>
+          <p class="font-medium text-orange-500">Freelancer platform</p>
+          <h3 class="text-2xl font-semibold text-left">HoneyBadgers</h3>
+
           <p class="text-gray-800 dark:text-gray-200">
-            The frontend of this university project is designed and coded by
-            me.
+            A platform for freelancers and clients to do business. The frontend
+            of this university project is designed and coded by me.
           </p>
           <p class="text-gray-500 dark:text-gray-200 text-xs">
             Note: This website uses Heroku, so it takes several seconds to
@@ -114,7 +107,6 @@
           loading="lazy"
         />
       </section>
-
     </div>
   </div>
 </Layout>

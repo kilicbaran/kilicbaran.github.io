@@ -23,7 +23,7 @@
     <title>Tag "{tag}" - Blog - Baran Kılıç</title>
 </svelte:head>
 
-<div class="p-2">
+<div class="p-4">
     <section
         class="mx-auto max-w-screen-lg flex flex-col md:flex-row items-center md:justify-between mt-4 sm:mt-6 md:mt-8 text-center md:text-left"
     >

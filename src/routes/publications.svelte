@@ -36,7 +36,7 @@
 </svelte:head>
 
 <Layout {path}>
-    <div class="mx-auto max-w-screen-md p-2 tracking-inter">
+    <div class="mx-auto max-w-screen-md p-4 tracking-inter">
         <HomeTitle>Publications</HomeTitle>
         <section class="mx-auto mt-4">
             <h2 class="text-2xl mb-1">Conference Papers</h2>

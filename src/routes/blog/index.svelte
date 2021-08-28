@@ -19,7 +19,7 @@
     <link rel="alternate" type="application/rss+xml" href="/blog/feed.xml" />
 </svelte:head>
 
-<div class="p-2">
+<div class="p-4">
     <section
         class="mx-auto max-w-screen-lg flex flex-col md:flex-row items-stretch md:justify-between mt-4 sm:mt-6 md:mt-8 text-center md:text-left"
     >
