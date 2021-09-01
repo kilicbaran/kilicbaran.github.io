@@ -99,7 +99,7 @@
         </div>
 
         <img
-          class="w-full h-60 md:h-full object-cover object-left-top"
+          class="w-full h-60 object-cover object-left-top"
           src="/images/honeybadgers.webp"
           alt="HoneyBadgers website screenshot"
           width="2560"
