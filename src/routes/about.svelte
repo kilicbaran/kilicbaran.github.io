@@ -96,6 +96,14 @@
                         > to learn more about what we do in the Infinitech project.
                     </div>
                     <div>
+                        17 Feb 2020 • We published a <a
+                            class="underline text-blue-600 visited:text-purple-600"
+                            href="https://zenodo.org/record/4718440"
+                            target="_blank"
+                            rel="noopener noreferrer">dataset</a
+                        > of ether and popular ERC20 token transactions extracted from Ethereum blockchain.
+                    </div>
+                    <div>
                         5 Nov 2019 • Started <a
                             class="underline text-blue-600 visited:text-purple-600"
                             href="https://cmpe.boun.edu.tr/news/eu-sponsored-h2020-project-infinitech-started"
