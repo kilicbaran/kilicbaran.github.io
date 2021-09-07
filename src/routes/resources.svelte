@@ -25,9 +25,9 @@
             classes: "from-orange-400 to-orange-700"
         },
         {
-            name: "Coming soon",
-            href: "",
-            classes: "from-gray-400 to-gray-700"
+            name: "LaTeX",
+            href: "latex",
+            classes: "from-green-400 to-green-700"
         },
     ];
 </script>
@@ -53,6 +53,5 @@
                 </a>
             {/each}
         </section>
-        <p class="text-xl mt-4">This page is under construction. 🚧</p>
     </div>
 </Layout>
