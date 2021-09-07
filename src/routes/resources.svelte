@@ -43,6 +43,9 @@
 <Layout {path}>
     <div class="mx-auto max-w-screen-md p-4 tracking-inter">
         <HomeTitle>Resources</HomeTitle>
+        <div class="mt-2">
+            Useful links, guides, cheatsheets, tools
+        </div>
         <section class="max-w-screen-md mx-auto mt-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
             {#each cards as {name, href, classes}}
                 <a
