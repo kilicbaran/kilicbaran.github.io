@@ -49,7 +49,7 @@
         <section class="max-w-screen-md mx-auto mt-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
             {#each cards as {name, href, classes}}
                 <a
-                    href="/resources/{href}"
+                    href="/resources/{href}/"
                     class="bg-gradient-to-br {classes} text-white rounded-2xl w-full h-32 text-2xl font-medium flex justify-center items-center"
                 >
                     {name}

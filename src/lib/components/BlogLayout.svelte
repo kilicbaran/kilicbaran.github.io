@@ -12,14 +12,14 @@
     <div class="max-w-screen-md mx-auto p-4 tracking-inter">
         <h1 class="text-5xl max-w-screen-md mx-auto my-4 sm:my-6 leading-tight">{metadata.title}</h1>
         <div class="flex">
-            <a href="/about"><img
+            <a href="/about/"><img
                 class="flex-none w-12 h-12 rounded-full"
                 src="/images/baran.jpg"
                 alt="Baran Kılıç"
                 loading="lazy"
             /></a>
             <div class="ml-2">
-                <a class="hover:underline font-medium" href="/about">Baran Kılıç</a>
+                <a class="hover:underline font-medium" href="/about/">Baran Kılıç</a>
                 <div>
                     {new Date(metadata.date).toLocaleDateString(
                         "en-US",
@@ -38,7 +38,7 @@
                 <span>Tags:</span>
                 {#each metadata.tags as tag}
                     <a
-                        href="/blog/tag/{tag}"
+                        href="/blog/tag/{tag}/"
                         class="border border-gray-800 dark:border-gray-400 rounded px-2 py-1 mr-2 hover:underline"
                         >{tag}</a
                     >

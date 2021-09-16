@@ -10,7 +10,7 @@ export async function get() {
 
             return {
                 metadata,
-                slug: fileName.slice(0, -extension.length)
+                slug: fileName.slice(0, -extension.length) + "/"
             };
         });
 
