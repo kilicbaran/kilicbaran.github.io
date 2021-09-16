@@ -28,8 +28,8 @@
             <a
                 {href}
                 class="px-3 py-3 rounded hover:bg-gray-100 dark:hover:bg-gray-700"
-                class:text-blue-500={path.startsWith(href)}
-                class:font-bold={path.startsWith(href)}
+                class:text-blue-500={path.startsWith(href.replace(/\/$/, ''))}
+                class:font-bold={path.startsWith(href.replace(/\/$/, ''))}
             >
                 {name}
             </a>
