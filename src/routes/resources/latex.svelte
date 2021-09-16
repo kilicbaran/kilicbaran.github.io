@@ -55,7 +55,7 @@
                 </ul>
             </section>
             <section>
-                <h2 class="text-2xl">Font</h2>
+                <h2 class="text-2xl">Fonts</h2>
                 <ul>
                     <li>
                         <a
@@ -133,6 +133,25 @@
                             href="https://detexify.kirelabs.org/classify.html"
                             target="_blank"
                             rel="noopener noreferrer">LaTeX Symbol Recognizer</a
+                        >
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h2 class="text-2xl">Extensions</h2>
+                <ul>
+                    <li>
+                        <a
+                            href="https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop"
+                            target="_blank"
+                            rel="noopener noreferrer">VSCode - LaTeX Workshop</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://marketplace.visualstudio.com/items?itemName=valentjn.vscode-ltex"
+                            target="_blank"
+                            rel="noopener noreferrer">VSCode - LTeX - Grammar/Spell Checker</a
                         >
                     </li>
                 </ul>
