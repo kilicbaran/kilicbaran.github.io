@@ -25,7 +25,9 @@
 </svelte:head>
 
 <Layout {path}>
-    <div class="mx-auto max-w-screen-md p-4 tracking-inter subpixel-antialiased">
+    <div
+        class="mx-auto max-w-screen-md p-4 tracking-inter subpixel-antialiased"
+    >
         <HomeTitle>About Me</HomeTitle>
         <div class="divide-y">
             <section class="max-w-prose mx-auto py-5">
@@ -67,6 +69,22 @@
 
                 <div id="news-list" class="max-w-prose mx-auto space-y-3">
                     <div>
+                        26 Jul 2021 • We released the source code of our <a
+                            class="underline text-blue-600 visited:text-purple-600"
+                            href="https://github.com/hyperledger/fabric-samples/tree/main/token-erc-1155"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >ERC-1155 Chaincode for Fabric</a
+                        >
+                        under an open source licence. Learn more about
+                        <a
+                            class="underline text-blue-600 visited:text-purple-600"
+                            href="https://www.youtube.com/watch?v=eXPI5Xncf4M"
+                            target="_blank"
+                            rel="noopener noreferrer">ERC-1155</a
+                        >.
+                    </div>
+                    <div>
                         4 Dec 2020 • Our conferance paper titled "A Cluster
                         Based System for Analyzing Ethereum Blockchain
                         Transaction Data" is now <a
@@ -101,7 +119,8 @@
                             href="https://zenodo.org/record/4718440"
                             target="_blank"
                             rel="noopener noreferrer">dataset</a
-                        > of ether and popular ERC20 token transactions extracted from Ethereum blockchain.
+                        > of ether and popular ERC20 token transactions extracted
+                        from Ethereum blockchain.
                     </div>
                     <div>
                         5 Nov 2019 • Started <a

@@ -21,10 +21,10 @@
                     label: "PDF",
                     link: "https://ieeexplore.ieee.org/abstract/document/9274081",
                 },
-                {
+                /*{
                     label: "Slide",
                     link: "/publications/bcca2020-anayzing-ethereum-transactions.pdf",
-                },
+                },*/
             ],
         },
     ];
