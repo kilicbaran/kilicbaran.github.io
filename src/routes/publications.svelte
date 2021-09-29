@@ -26,13 +26,24 @@
                     link: "/publications/bcca2020-anayzing-ethereum-transactions.pdf",
                 },*/
             ],
+            keywords: [
+                "blockchain",
+                "cluster",
+                "ethereum",
+                "graph analysis",
+                "MPI",
+                "transaction graph",
+            ],
         },
     ];
 </script>
 
 <svelte:head>
     <title>Publications - Baran Kılıç</title>
-    <meta name="description" content="Publications authored by Baran Kılıç. Conference papers, journal publications." />
+    <meta
+        name="description"
+        content="Publications authored by Baran Kılıç. Conference papers, journal publications."
+    />
 </svelte:head>
 
 <Layout {path}>
@@ -41,7 +52,7 @@
         <section class="mx-auto mt-4">
             <h2 class="text-2xl mb-1">Conference Papers</h2>
             <ol class="list-decimal mx-auto pl-8">
-                {#each conf_papers as { text, links }, index}
+                {#each conf_papers as { text, links, keywords }, index}
                     <li value={index + 1}>
                         <span>{text}</span>
                         {#each links as { label, link }}
@@ -52,6 +63,16 @@
                                 rel="noopener noreferrer">{label}</a
                             >
                         {/each}
+                        {#if keywords}
+                            <div class="mt-2">
+                                <span class="mr-1">Keywords:</span>
+                                {#each keywords as keyword, index}
+                                    <span class="mr-1"
+                                        >{keyword}{#if index != keywords.length - 1},{/if}
+                                    </span>
+                                {/each}
+                            </div>
+                        {/if}
                     </li>
                 {/each}
             </ol>
