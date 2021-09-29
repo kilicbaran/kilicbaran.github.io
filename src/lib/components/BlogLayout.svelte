@@ -40,6 +40,7 @@
                     <a
                         href="/blog/tag/{tag}/"
                         class="border border-gray-800 dark:border-gray-400 rounded px-2 py-1 mr-2 hover:underline"
+                        rel="nofollow"
                         >{tag}</a
                     >
                 {/each}
