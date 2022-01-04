@@ -69,6 +69,15 @@
 
                 <div id="news-list" class="max-w-prose mx-auto space-y-3">
                     <div>
+                        04 Jan 2022 • The extended version of our conference paper is published in <a
+                            class="underline text-blue-600 visited:text-purple-600"
+                            href="https://link.springer.com/article/10.1007/s10586-021-03511-0"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >Cluster Computing</a
+                        > journal.
+                    </div>
+                    <div>
                         26 Jul 2021 • We released the source code of our <a
                             class="underline text-blue-600 visited:text-purple-600"
                             href="https://github.com/hyperledger/fabric-samples/tree/main/token-erc-1155"
