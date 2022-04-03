@@ -49,7 +49,7 @@
     >
       {#each cards as { name, href, classes }}
         <a
-          href="/resources/{href}/"
+          href="/resources/{href}"
           class="bg-gradient-to-br {classes} text-white rounded-2xl w-full h-32 text-2xl font-medium flex justify-center items-center"
         >
           {name}

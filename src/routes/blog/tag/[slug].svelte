@@ -38,7 +38,7 @@
   <div class="mx-auto max-w-screen-md mt-8">
     <h2 class="text-xl mb-6">Posts with tag: "{tag}"</h2>
     {#each posts as { metadata, slug }}
-      <a href="/blog/post/{slug}/">
+      <a href="/blog/post/{slug}">
         <div
           class="mb-6 flex flex-col md:flex-row bg-gray-50 dark:bg-gray-800 border rounded-xl overflow-hidden items-center"
         >
