@@ -22,7 +22,7 @@
   />
 </svelte:head>
 
-<Layout {path} extraClasses="bg-blueGray-100 dark:bg-black">
+<Layout {path} extraClasses="bg-slate-100 dark:bg-black">
   <div class="p-4 pb-8 tracking-inter subpixel-antialiased">
     <HomeTitle>Projects</HomeTitle>
     <h2
