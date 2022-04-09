@@ -5,10 +5,6 @@
 
 <svelte:head>
   {#if !dev}
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="default-src https://www.google-analytics.com 'unsafe-inline'; connect-src 'self' https://www.google-analytics.com; frame-src https://render.githubusercontent.com; img-src https://* www.googletagmanager.com https://www.google-analytics.com 'self'; media-src 'self'; style-src https://rsms.me/ https://fonts.googleapis.com https://github.githubassets.com/ 'unsafe-inline' 'self'; font-src https://rsms.me/ https://fonts.gstatic.com; manifest-src 'self';  script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://ssl.google-analytics.com; worker-src 'self';"
-    />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
