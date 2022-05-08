@@ -48,6 +48,18 @@
       // ],
     },
   ];
+
+  const book_chaps = [
+    {
+      text: "Baran Kılıç, Can Özturan, and Alper Sen. “Analyzing Large-Scale Blockchain Transaction Graphs for Fraudulent Activities”. In: Big Data and Artificial Intelligence in Digital Finance: Increasing Personalization and Trust in Digital Finance using Big Data and AI. ed. by John Soldatos and Dimosthenis Kyriazis. Springer International Publishing, 2022, pp. 253–267. doi: 10.1007/978-3-030-94590-9_14",
+      links: [
+        {
+          label: "Link",
+          link: "https://link.springer.com/chapter/10.1007/978-3-030-94590-9_14",
+        },
+      ],
+    },
+  ];
 </script>
 
 <svelte:head>
@@ -93,6 +105,34 @@
       <h2 class="text-2xl mb-1">Conference Papers</h2>
       <ol class="list-decimal mx-auto pl-8">
         {#each conf_papers as { text, links, keywords }, index}
+          <li value={index + 1}>
+            <span>{text}</span>
+            {#each links as { label, link }}
+              <a
+                class="m-1 p-1 border rounded border-blue-500 text-blue-500 hover:border-blue-800 hover:text-blue-800"
+                href={link}
+                target="_blank"
+                rel="noopener noreferrer">{label}</a
+              >
+            {/each}
+            {#if keywords}
+              <div class="mt-2">
+                <span class="mr-1">Keywords:</span>
+                {#each keywords as keyword, index}
+                  <span class="mr-1"
+                    >{keyword}{#if index != keywords.length - 1},{/if}
+                  </span>
+                {/each}
+              </div>
+            {/if}
+          </li>
+        {/each}
+      </ol>
+    </section>
+    <section class="mx-auto mt-4">
+      <h2 class="text-2xl mb-1">Book Chapters</h2>
+      <ol class="list-decimal mx-auto pl-8">
+        {#each book_chaps as { text, links, keywords }, index}
           <li value={index + 1}>
             <span>{text}</span>
             {#each links as { label, link }}
