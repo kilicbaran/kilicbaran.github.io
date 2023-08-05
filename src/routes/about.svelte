@@ -90,7 +90,7 @@
           <div>
             26 Jul 2021 • We released our <a
               class="underline text-blue-600 visited:text-purple-600"
-              href="https://marketplace.infinitech-h2020.eu/assets/scalable-transaction-graph-analysis-component-2"
+              href="https://gitlab.infinitech-h2020.eu/pilot9/scalable-transaction-graph-analysis-component-ethereum"
               target="_blank"
               rel="noopener noreferrer"
               >parallel and scalable blockchain transaction graph analysis

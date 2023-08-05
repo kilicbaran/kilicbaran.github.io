@@ -157,5 +157,19 @@
         {/each}
       </ol>
     </section>
+    <section class="mx-auto mt-4">
+      <h2 class="text-2xl mb-1">MSc Thesis</h2>
+      <ul class="mx-auto pl-8">
+          <li>
+            <span>Parallel Analysis of Blockchain Transaction Graphs</span>
+            <a
+                class="m-1 p-1 border rounded border-blue-500 text-blue-500 hover:border-blue-800 hover:text-blue-800"
+                href="/publications/ms-thesis.pdf"
+                target="_blank"
+                rel="noopener noreferrer">Link</a
+              >
+          </li>
+      </ul>
+    </section>
   </div>
 </Layout>
