@@ -1,93 +1,60 @@
 @tailwind base;
-/* Write your global styles here, in PostCSS syntax */
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-    body {
-        @apply text-gray-900 dark:text-gray-100 dark:bg-black;
-    }
+@layer base {
+	details summary {
+		@apply text-2xl font-semibold cursor-pointer select-none;
+	}
 
-    .blog-body > p {
-        @apply mb-6 text-lg leading-relaxed px-2 sm:px-0 max-w-screen-sm mx-auto;
-        letter-spacing: -0.014em;
-    }
+	details[open] summary {
+		@apply mb-3;
+	}
 
-    .blog-body blockquote {
-        @apply mt-6 mb-6 pl-6 text-2xl text-gray-500 dark:text-gray-400 font-serif italic max-w-screen-sm mx-auto;
-    }
+	details {
+		@apply rounded-xl p-4 bg-neutral-800;
+	}
 
-    .blog-body a {
-        @apply underline text-blue-600 visited:text-purple-600;
-    }
+	details li {
+		@apply text-neutral-300;
+	}
 
-    .blog-body figure {
-        @apply mt-6 mb-6;
-    }
+	details a {
+		@apply inline-block hover:underline decoration-[#6b57ff] decoration-4 underline-offset-4 py-1 sm:py-0;
+	}
 
-    .blog-body figcaption {
-        @apply text-center text-gray-600 dark:text-gray-400 max-w-screen-sm mx-auto mt-2;
-        letter-spacing: -0.011em;
-    }
+	details div section h3 {
+		@apply text-xl;
+	}
 
-    #web-dev-tools > section > ul > li > a {
-        @apply text-blue-600 hover:underline visited:text-purple-600;
-    }
+	.badge {
+		@apply absolute px-2 text-xs;
+	}
 
-    #software-dev > section > ul > li > a {
-        @apply text-blue-600 hover:underline visited:text-purple-600;
-    }
-    
-}
+	.badge-top-left {
+		@apply top-0 left-0 rounded-br-lg;
+	}
 
-@layer utilities {
-    
-    .text-sm .tracking-inter, .tracking-inter .text-sm, .text-sm.tracking-inter {
-        letter-spacing: -0.006em;
-    }
+	.badge-top-right {
+		@apply top-0 right-0 rounded-bl-lg;
+	}
 
-    .text-base .tracking-inter, .tracking-inter .text-base, .text-base.tracking-inter {
-        letter-spacing: -0.011em;
-    }
-
-    .text-lg .tracking-inter, .tracking-inter .text-lg, .text-lg.tracking-inter {
-        letter-spacing: -0.014em;
-    }
-
-    .text-xl .tracking-inter, .tracking-inter .text-xl, .text-xl.tracking-inter {
-        letter-spacing: -0.017em;
-    }
-
-    .text-2xl .tracking-inter, .tracking-inter .text-2xl, .text-2xl.tracking-inter {
-        letter-spacing: -0.019em;
-    }
-    
-    .text-3xl .tracking-inter, .tracking-inter .text-3xl, .text-3xl.tracking-inter {
-        letter-spacing: -0.021em;
-    }
-
-    .text-4xl .tracking-inter, .tracking-inter .text-4xl, .text-4xl.tracking-inter {
-        letter-spacing: -0.022em;
-    }
-
-    .text-5xl .tracking-inter, .tracking-inter .text-5xl, .text-5xl.tracking-inter {
-        letter-spacing: -0.022em;
-    }
-
-    .text-6xl .tracking-inter, .tracking-inter .text-6xl, .text-6xl.tracking-inter {
-        letter-spacing: -0.022em;
-    }
-
-    .text-7xl .tracking-inter, .tracking-inter .text-7xl, .text-7xl.tracking-inter {
-        letter-spacing: -0.022em;
-    }
-
-    .text-8xl .tracking-inter, .tracking-inter .text-8xl, .text-8xl.tracking-inter {
-        letter-spacing: -0.022em;
-    }
-
-    .text-9xl .tracking-inter, .tracking-inter .text-9xl, .text-9xl.tracking-inter {
-        letter-spacing: -0.022em;
-    }
-
+	.badge-date {
+		@apply badge badge-top-left bg-slate-100 text-slate-900;
+	}
+	.badge-conference {
+		@apply badge badge-top-right bg-yellow-100 text-yellow-900;
+	}
+	.badge-thesis {
+		@apply badge badge-top-right bg-orange-100 text-orange-900;
+	}
+	.badge-book {
+		@apply badge badge-top-right bg-green-100 text-green-900;
+	}
+	.badge-journal {
+		@apply badge badge-top-right bg-purple-100 text-purple-900;
+	}
+	.publication-card {
+		@apply border shadow-sm relative rounded-lg bg-slate-50 flex flex-col overflow-hidden;
+	}
 }
