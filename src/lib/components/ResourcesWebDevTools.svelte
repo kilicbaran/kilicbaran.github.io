@@ -1,6 +1,6 @@
 <details open class="accordion">
 	<summary>⚒️ Web Dev Tools</summary>
-	<div id="web-dev-tools" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+	<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
 		<section>
 			<h3>Validators</h3>
 			<ul>
