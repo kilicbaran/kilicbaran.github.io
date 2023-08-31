@@ -46,11 +46,6 @@
 			<h3>Speed & Overall Tests</h3>
 			<ul>
 				<li>
-					<a href="https://web.dev/measure/" target="_blank" rel="noopener noreferrer nofollow"
-						>Google Measure</a
-					>
-				</li>
-				<li>
 					<a
 						href="https://developers.google.com/speed/pagespeed/insights/"
 						target="_blank"
