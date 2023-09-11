@@ -1,0 +1,7 @@
+User-Agent: *
+Disallow: /images/
+Disallow: /blog/tag/
+Disallow: /*.pdf$
+Allow: /
+
+Sitemap: https://kilicbaran.github.io/sitemap.xml
